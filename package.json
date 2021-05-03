@@ -1,5 +1,5 @@
 {
-  "name": "bare-app",
+  "name": "cypress-unit-tests",
   "version": "0.1.0",
   "private": true,
   "keywords": [
