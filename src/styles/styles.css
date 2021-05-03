@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fbff;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.signin-signup-form ::-webkit-input-placeholder {
+  color: #d6dae4;
+}
+.signin-signup-form :-moz-placeholder {
+  color: #d6dae4;
+}
+.signin-signup-form ::-moz-placeholder {
+  color: #d6dae4;
+}
+.signin-signup-form :-ms-input-placeholder {
+  color: #d6dae4;
+}
+
+.signin-signup-form .form-items {
+  display: inline-block;
+  width: 100%;
+  max-width: 392px;
+  text-align: center;
+}
+
+.signin-signup-form .form-title {
+  color: #4a5761;
+  font-size: 19px;
+  margin-bottom: 50px;
+}
+
+.signin-signup-form {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+}
+.signin-signup-form .form-text {
+  margin-bottom: 30px;
+}
+.signin-signup-form .form-text .error {
+  color: #940e0e;
+  margin-top: 5px;
+  padding: 0 30px;
+}
+.signin-signup-form .form-text input,
+.signin-signup-form .form-text .dropdown-toggle.btn-default {
+  width: 100%;
+  padding: 15px 30px;
+  border-radius: 100px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0397ff;
+  outline: 0;
+  -webkit-box-shadow: 0 6px 12px 0 rgba(18, 113, 179, 0.14);
+  -moz-box-shadow: 0 6px 12px 0 rgba(18, 113, 179, 0.14);
+  box-shadow: 0 6px 12px 0 rgba(18, 113, 179, 0.14);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.signin-signup-form .form-text input:hover,
+.signin-signup-form .form-text input:focus,
+.signin-signup-form .form-text .dropdown-toggle.btn-default:hover,
+.signin-signup-form .form-text .dropdown-toggle.btn-default:focus {
+  -webkit-box-shadow: 0 10px 22px 0 rgba(18, 113, 179, 0.14);
+  -moz-box-shadow: 0 10px 22px 0 rgba(18, 113, 179, 0.14);
+  box-shadow: 0 10px 22px 0 rgba(18, 113, 179, 0.14);
+}
+.signin-signup-form .form-button {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.signin-signup-form .form-button button {
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background-color: #008ef2;
+  -webkit-box-shadow: 0 12px 32px 0 rgba(72, 179, 255, 0.43);
+  -moz-box-shadow: 0 12px 32px 0 rgba(72, 179, 255, 0.43);
+  box-shadow: 0 12px 32px 0 rgba(72, 179, 255, 0.43);
+  outline: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.signin-signup-form .form-button button:hover,
+.signin-signup-form .form-button button:focus {
+  background-color: #0080d9;
+}
+
+.signin-signup-form .form-button button .hno {
+  vertical-align: middle;
+  margin-top: 1px;
+  margin-left: 5px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.signin-signup-form .form-button button:hover .hno,
+.signin-signup-form .form-button button:focus .hno {
+  margin-left: 10px;
+}
+
+.hno-arrow-right:before {
+  content: "\2192";
+  font-size: 40px;
+  line-height: 0px;
+}

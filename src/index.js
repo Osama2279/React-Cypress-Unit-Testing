@@ -1,14 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import reportWebVitals from "./reportWebVitals";
+
+import Login from "./views/login";
+import Home from "./views/home";
+import "bootstrap/dist/css/bootstrap-grid.min.css";
+import "./styles/styles.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Switch>
+        <Route path="/home" exact>
+          <Home />
+        </Route>
+        <Route path="/" exact>
+          <Login />
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
