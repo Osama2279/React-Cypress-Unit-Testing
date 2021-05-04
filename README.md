@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React Cypress Component and Integration Tests
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,15 +14,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn cypress:open-ct`
+### `yarn run cypress:open-ct`
 
 Launches the test runner for components in the interactive watch mode.\
 See the section about [running tests](https://docs.cypress.io/guides/component-testing/introduction#Writing-Component-Tests) for more information.
 
-### `yarn cypress:open`
+### `yarn run cypress:open`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://docs.cypress.io/guides/getting-started/installing-cypress#Opening-Cypress) for more information.
+
 **NOTE**
 Make sure your project is running at `port 3000` first.
 
