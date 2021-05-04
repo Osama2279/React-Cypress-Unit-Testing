@@ -2,8 +2,8 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import { useForm } from "react-hook-form";
 
-const USER_EMAIL = "bill@gates.com";
-const USER_PASSWORD = "12345678";
+export const USER_EMAIL = "bill@gates.com";
+export const USER_PASSWORD = "12345678";
 
 export default () => {
   let history = useHistory();
@@ -67,9 +67,9 @@ export default () => {
 
             <div className="form-text">
               <input
+                type="password"
                 placeholder="Password"
                 {...register("password", {
-                  type: "password",
                   required: true,
                 })}
               />

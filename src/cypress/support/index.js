@@ -1,2 +1,5 @@
-import "bootstrap/dist/css/bootstrap-grid.min.css";
-import "../../styles/styles.css";
+// You can read more here:
+// https://on.cypress.io/configuration
+// ***********************************************************
+
+import './commands';

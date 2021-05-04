@@ -1,12 +1,12 @@
 {
+  "baseUrl": "http://localhost:3000",
   "component": {
     "componentFolder": "src/cypress/components",
     "testFiles": "*.test.js"
   },
-
   "pluginsFile": "src/cypress/plugins/index.js",
-
   "supportFile": "src/cypress/support/index.js",
-
-  "screenshotsFolder": "src/cypress/screenshots"
+  "screenshotsFolder": "src/cypress/screenshots",
+  "integrationFolder": "src/cypress/integration"
 }
+
